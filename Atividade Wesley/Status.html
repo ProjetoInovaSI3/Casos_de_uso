@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Home | Inova</title>
+    <title>Status | Inova</title>
     <link rel="icon" href="logo.png">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -71,6 +71,23 @@
             font-family: Arial, Helvetica, sans-serif;
 
         }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
     </style>
 </head>
 
@@ -84,13 +101,13 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" title="Início" href="#">Inova</a>
+                <a class="navbar-brand" title="Início" href="Home.html">Inova</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
                     <li><a href="Tecnicos.html">Cursos</a></li>
                     <li><a href="Template.html">Demandas</a></li>
-                    <li><a href="Status.html">Status das Demandas</a></li>  
+                    <li><a href="#">Status das Demandas</a></li>  
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
@@ -109,32 +126,69 @@
 <br>
     <div class="container-fluid bg-3 text-center">
         <img class="IMAGE" src="Logo-UniSales.png" class="img-responsive" style="width: 25%" alt="Image">
-        <pre class="Text">
+        <h3 class="Text">
             <b class="blue">
-Há tempos o atendimento deixou de ser um diferencial e começou
-a ser obrigatório em empresas que desejam ganhar espaço e permanecer
-no mercado. Você sabe o que é help desk? O help desk veio para revolucionar
-o atendimento.</b>
-<b class="red"> Já era hora de acabar com essa ideia de que o consumidor precisava ir ao
-encontro da marca em uma loja física para ser atendido. Com o help desk,
-agora o atendimento é feito online, quando o cliente precisa e de onde
-ele estiver.</b>
-           </pre>
+            Acompanhe aqui a situação das demandas registradas.</b>
+
+</h3>
     </div>
-    <div>
-
-    </div>
-
-    <h2 class="text-center"> Venha conhecer nossa Universidade</h2>
-    <br>
-
     <div class="jumbotron">
-    <div class="Maps">
-        
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.2952942385136!2d-40.32492599297106!3d-20.31695184984295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb83d9c554b088b%3A0xac078b394a6e0017!2sUniSales%20-%20Centro%20Universit%C3%A1rio%20Salesiano!5e0!3m2!1spt-BR!2sbr!4v1620228803704!5m2!1spt-BR!2sbr"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" title="maps"> </iframe>
-            
-        </div>
+        <div class="container text-center">
+        <table>
+            <tr>
+              <th>IdDemanda</th>
+              <th>Demandante</th>
+              <th>Professor Responsável</th>
+              <th>Curso</th>
+              <th>Satus</th>
+            </tr>
+            <tr>
+              <td>01</td>
+              <td>Maria Anders</td>
+              <td>Cássio</td>
+              <td>SI3</td>
+              <td>Entregue</td>
+            </tr>
+            <tr>
+              <td>02</td>
+              <td>Francisco Chang</td>
+              <td>Wesley</td>
+              <td>TADS3</td>
+              <td>Em desenvolvimento</td>
+            </tr>
+            <tr>
+              <td>03</td>
+              <td>Roland Mendel</td>
+              <td>Marcelo</td>
+              <td>SI6</td>
+              <td>Em desenvolvimento</td>
+            </tr>
+            <tr>
+              <td>04</td>
+              <td>Helen Bennett</td>
+              <td>Bianca</td>
+              <td>Nutrição3</td>
+              <td>Cancelado</td>
+            </tr>
+            <tr>
+              <td>05</td>
+              <td>Yoshi Tannamuri</td>
+              <td></td>
+              <td></td>
+              <td>Designando professor</td>
+            </tr>
+            <tr>
+              <td>06</td>
+              <td>Giovanni Rovelli</td>
+              <td>Cássio</td>
+              <td></td>
+              <td>Designando curso</td>
+            </tr>
+          </table>
+          </div>>
+
+    </div>
+
+    
 </div>
     
