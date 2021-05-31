@@ -18,44 +18,46 @@
 
         /* Add a gray background color and some padding to the footer */
         footer {
-            background-color: #f2f2f2;
+            background-color: red;
             padding: 25px;
         }
 
         .IMAGE {
-            float: left;
-            margin-left: 10px;
-            margin-bottom: 200px;
-            padding-right: 40px;
+            float: center;
+            margin-left: 0px;
+            margin-bottom: 0px;
+            padding-right: 0px;
+            margin-top: 20px;
+           
         }
 
         .Text {
-            padding-top: 50px;
-            text-align: left;
-            font-size: 24px;
+            padding-top: 70px;
+            text-align: center;
+            font-size: 25px;
             border: 0px;
             background-color: #fff;
-            float: right;
-            height: 400px;
+            float: center;
+            height: 100px;
             width: 920px;
-            margin-right: 0px;
+            margin-left: 100px;
             font-family: Arial, Helvetica, sans-serif;
+            margin-top: 100px;
         }
 
         .blue {
-            color: #1e3f93;
+            color: #1e3f93; 
         }
 
         .red {
             color: #dc1224;
         }
-
+    
         .Maps {
 
             padding-top: 10px;
             padding-left: 50em;
             padding-right: 50em;
-
         }
 
         .Contato {
@@ -69,7 +71,6 @@
             width: 920px;
             margin-right: 0px;
             font-family: Arial, Helvetica, sans-serif;
-
         }
 
         table {
@@ -82,10 +83,14 @@
             border: 1px solid #dddddd;
             text-align: left;
             padding: 8px;
+            background-color:  white;
         }
 
         tr:nth-child(even) {
             background-color: #dddddd;
+        }
+        body, html{
+            height: 100%;
         }
 
     </style>
@@ -116,31 +121,28 @@
         </div>
     </nav>
 
-    <div class="jumbotron">
+    <div class="jumbotron" style="background-color: #fff;">
         <div class="container text-center">
             <h1
                 style="font-size: 100px; background: linear-gradient(270deg, rgba(220,18,36,1) 45%, rgba(30,63,147,1) 55%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
                 Inova</h1>
         </div>
     </div>
-<br>
-    <div class="container-fluid bg-3 text-center">
-        <img class="IMAGE" src="Logo-UniSales.png" class="img-responsive" style="width: 25%" alt="Image">
-        <h3 class="Text">
-            <b class="blue">
-            Acompanhe aqui a situação das demandas registradas.</b>
 
-</h3>
-    </div>
-    <div class="jumbotron">
+    
+    <div class="jumbotron" style="margin-bottom: 50px;">
         <div class="container text-center">
-        <table>
+            <h3>
+            <b class="blue" style="text-align:center">
+                Acompanhe aqui a situação das demandas registradas</b>
+        </h3>
+        <table style="margin-top: 30px;"> 
             <tr>
               <th>IdDemanda</th>
               <th>Demandante</th>
               <th>Professor Responsável</th>
               <th>Curso</th>
-              <th>Satus</th>
+              <th>Status</th>
             </tr>
             <tr>
               <td>01</td>
@@ -184,11 +186,8 @@
               <td></td>
               <td>Designando curso</td>
             </tr>
-          </table>
-          </div>>
+        </table>
+        <img class="IMAGE" src="Logo-UniSales.png" class="img-responsive" style="width: 25%" alt="Image">
+          </div>
 
     </div>
-
-    
-</div>
-    
